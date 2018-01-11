@@ -36,7 +36,7 @@ We suggest use __pyorphan__ as __pylint__ complement.
       -h, --help    show this help message and exit
 
 
-## Note
+## Notes
 
 This is a little but useful project to imporove code quality.
 
