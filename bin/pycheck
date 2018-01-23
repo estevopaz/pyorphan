@@ -4,9 +4,9 @@
 # Simple script to check python code
 # Usage:
 #    cd PROJECT_PATH
-#    ./code_check [file.py]  # Avoid file to check all project
+#    ./pycheck [file.py]  # Avoid file to check all project
 # Geany command:
-#    PYTHONPATH=${PYTHONPATH}:"%p" bash code_check.sh "%d/%f"
+#    PYTHONPATH=${PYTHONPATH}:"%p" pycheck "%d/%f"
 
 if [ $1 ]; then
 
