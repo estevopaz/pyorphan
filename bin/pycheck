@@ -19,7 +19,7 @@ if [ $1 ]; then
     pyorphan . $1
 
     echo -e "\n#\n# pylint\n#"
-    pylint3 --output-format=parseable $1
+    pylint --output-format=parseable $1
 
 else
 
@@ -30,6 +30,6 @@ else
     pyorphan .
 
     echo -e "\n#\n# pylint\n#"
-    pylint3 --output-format=parseable anadb hoot
+    pylint --output-format=parseable anadb hoot
 
 fi
